@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="CaculatorView">
+        <attr name="mode">
+            <enum name="normal" value="0"/>
+            <enum name="science" value="1"/>
+        </attr>
+        <attr name="textSize" format="dimension"/>
+        <attr name="buttonMargin" format="dimension"/>
+        <attr name="pressDarkRate" format="float"/>
+    </declare-styleable>
+</resources>
